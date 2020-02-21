@@ -18,18 +18,46 @@
 .charCard {
   width: 200px!important;
   margin: 1%;
-  background-color: burlywood;
+  background-color: rgb(228, 221, 216);
   border-radius: 6px;
   padding: 1%;
 }
 .cardTitle {
   font-size: 1.5rem;
 }
+.form {
+  margin: 1%;
+  background-color: burlywood;
+  margin: 0;
+  padding-top: 2%;
+}
+
+
 
 footer {
   background-color: sienna;
   color: white;
   margin: 0;
   padding: 1%;
+}
+
+.pag {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: burlywood;
+}
+
+.pagination-lg {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.page-item{
+  padding-right: 10%;
+  padding-left: 10%;
+  margin: 1%;
+  list-style-type: none;
 }
 /* write your parent styles in here for your App.js */

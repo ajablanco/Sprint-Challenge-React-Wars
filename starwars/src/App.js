@@ -3,6 +3,8 @@ import "./App.css";
 import CharacterCard from "./components/CharacterCard";
 import Footer from "./components/Footer";
 import axios from "axios";
+import Form from "./components/Form";
+import Pag from "./components/Pagination";
 
 function App() {
   const [character, setCharacter] = useState([]);
@@ -29,7 +31,8 @@ function App() {
           return <CharacterCard className="charCard" key={id} human={human} />;
         })}
       </div>
-
+      <Form />
+      <Pag />
       <Footer />
     </div>
   );
