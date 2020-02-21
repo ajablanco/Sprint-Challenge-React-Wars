@@ -1,0 +1,12 @@
+import React from "react";
+
+
+const Footer = () => {
+    return (
+        <footer>
+            <p>Copyright 2020 Star Wars</p>
+        </footer>
+    )
+}
+
+export default Footer; 

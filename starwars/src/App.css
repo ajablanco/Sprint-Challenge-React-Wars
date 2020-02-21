@@ -5,4 +5,31 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.charCards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.charCard {
+  width: 200px!important;
+  margin: 1%;
+  background-color: burlywood;
+  border-radius: 6px;
+  padding: 1%;
+}
+.cardTitle {
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: sienna;
+  color: white;
+  margin: 0;
+  padding: 1%;
+}
 /* write your parent styles in here for your App.js */
